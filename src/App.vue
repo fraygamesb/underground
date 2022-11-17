@@ -1,15 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <auth-component></auth-component>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import AuthComponent from "@/components/AuthComponent";
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    AuthComponent
   }
 }
 </script>
